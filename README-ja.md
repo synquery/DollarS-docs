@@ -12,13 +12,9 @@ cd ./DollarS-docs
 npm i --save-dev
 ```
 
-- (2) change document and build to check your change
+- (2) change document and build
 
-```sh
-yarn build
-```
-
-- (3) make a pull request
+- (3) pull request
 
 
 ## Create new document
@@ -33,8 +29,10 @@ yarn generate-mds
 
 - (3) Upload to your doc_key area
 
+
+
 <hr style="margin-top: 3em; margin-bottom: 3em;">
 
-## Contributors
+## 謝辞
 
-Thanks goes to these wonderful people [👏](https://allcontributors.org/docs/en/emoji-key):
+協力者および関係者の皆様に、心より感謝いたします [👏](https://allcontributors.org/docs/ja/emoji-key):

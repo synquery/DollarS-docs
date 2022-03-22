@@ -1,0 +1,25 @@
+{
+  "name": "dollars-docs",
+  "version": "1.0.0",
+  "description": "Document of namespace $S on synquery web-platform ",
+  "main": "index.js",
+  "repository": "git@synquery/synquery-org-website.git",
+  "author": "Synquery <support@synquery.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "front-matter": "^4.0.2",
+    "prettier": "^2.2.1"
+  },
+  "resolutions": {},
+  "scripts": {
+    "build": "yarn generate-mds && yarn copy-contributors && yarn build:docs",
+    "build:docs": "node src/scripts/document-data-builder.js",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "copy-contributors": "node src/scripts/copy-contributors.js",
+    "generate-mds": "node src/scripts/generate-frontmatted-mds.js",
+    "test": "jest"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "projectName": "DollarS-docs",
+  "projectOwner": "synquery community",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    "login": "synquery",
+    "name": "synquery",
+    "avatar_url": "https://pbs.twimg.com/profile_images/1504704360995233792/szLqXAmT_400x400.jpg",
+    "profile": "https://github.com/synquery",
+    "contributions": [
+      "content"
+    ]
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true
+}

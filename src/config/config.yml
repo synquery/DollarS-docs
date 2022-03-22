@@ -1,0 +1,90 @@
+# Document configuration for flatstyledocs
+doc_key: synquery_api
+theme: eclipse
+wln: # Writing Languages
+  - en
+  - ja
+  - zh
+aln: # Available Languages
+  - en
+  - ja
+  - zh
+defln: en # Default Language
+doctype:
+  laptop: man_simple
+  mobile: man_simple
+layout:
+  laptop: flat_normal
+  mobile: flat_mobile
+scripts:
+  workdir: /Users/ystk_skm/workspaces/www-synquery/apps-SynqueryComponents
+  publish: https://www.east-cloud.co.jp/docs/
+  files:
+    - DS/s.js
+    - DS/s_DB.js
+    - DS_BOOK/s_*.js
+  jsdoc:
+    namespace: 101000000_Namespace
+    constant : 102000000_Constants
+    function : 104000000_Functions
+    class    : 105000000_Classes
+toc_title:
+  ja: |-
+    <div style="text-align: center; padding-right: 15px;"><small>for</small><span>  latest </span></div>
+    <div class="fixed_report"><a href="/contact/" target="_blank">お気付きの点・ご要望はこちらから</a></div>
+mystyle: |-
+  .flatstyledocs {
+    font-family: Akzidenz,"Helvetica Neue",Helvetica,'Opensans'; 
+  }
+  .flatstyledocs pre {
+    font-size: 100%;
+  }
+  .flatstyledocs.column2 a {
+    font-family: Akzidenz,"Helvetica Neue",Helvetica,'Open sans';
+  }
+  .flatstyledocs.column1 .title {
+    font-family: Akzidenz,"Helvetica Neue",Helvetica,'Open sans';
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .flatstyledocs.column1 code {
+  }
+  .flatstyledocs.column1 .synquery {
+    font-style: italic;
+    font-weight: bold;
+    color: #008;
+    font-family: 'Open sans', sans-serif;
+  }
+  .fixed_report {
+    background: #fff;
+    border: 1px solid #888;
+    border-radius: 12px;
+    position: fixed;
+    left: 8px; bottom:12px;
+    padding: 4px 12px 4px;
+    z-index: 9999;
+  }
+  .fixed_report>a {
+    font-size: 80%;
+    transition: 120ms ease-in-out;
+  }
+  .fixed_report:hover { 
+    border-color: #008;
+  }
+  .fixed_report:hover>a { 
+    font-size: 100%;
+  }
+aidx: none # Auto Index
+layout_keys: docs # Custom pathname
+title:
+  ja: |-
+    <div style="text-align:center;padding: 0px 0 12px; line-height: 1.4; font-size: 180%;">
+      <div> Synquery </div>
+      <div> API refrence </div>
+    </div>
+desc_css: { }
+toc_css: { }
+tags: [ ]
+origin:
+  _id: 55221c2d406d7a3caa184867
+  doc_key: synquery
