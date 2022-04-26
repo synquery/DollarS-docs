@@ -18,16 +18,23 @@ layout:
   mobile: flat_mobile
 scripts:
   workdir: /Users/ystk_skm/workspaces/www-synquery/apps-SynqueryComponents
+  docsdir: ../content
+  distdir: ../../dist
   publish: https://www.east-cloud.co.jp/docs/
   files:
     - DS/s.js
     - DS/s_DB.js
     - DS_BOOK/s_*.js
-  jsdoc:
-    namespace: 101000000_Namespace
-    constant : 102000000_Constants
-    function : 104000000_Functions
+  order_format: 000000000
+  alias:
+    10-refs  : 100000000_Reference
+    ns       : 101000000_Namespace
+    const    : 102000000_Constants
+    func     : 104000000_Functions
     class    : 105000000_Classes
+    20-links : 200000000_Links
+    sites    : 201000000_Sites
+    docs     : 202000000_Documents
 toc_title:
   ja: |-
     <div style="text-align: center; padding-right: 15px;"><small>for</small><span>  latest </span></div>

@@ -15,11 +15,12 @@
   },
   "resolutions": {},
   "scripts": {
-    "build": "yarn generate-mds && yarn copy-contributors && yarn build:docs",
-    "build:docs": "node src/scripts/document-data-builder.js",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "copy-contributors": "node src/scripts/copy-contributors.js",
+    "build": "yarn copy-contributors && yarn build:md && build:json",
+    "build:json": "node src/scripts/document-json-builder.js",
+    "build:md": "node src/scripts/jsdoc-to-md.js",
     "generate-mds": "node src/scripts/generate-frontmatted-mds.js",
+    "copy-contributors": "node src/scripts/copy-contributors.js",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "test": "jest"
   }
 }

@@ -2,7 +2,10 @@
 alias: components
 desc_key: components
 lang: ja
+level: 2
+parent: 202000000_Documents
 title: リファレンス
+top: 200000000_Links
 ---
 
 <a href="/docs/synquery_api/" target="_blank">Synquery API リファレンス</a>  
